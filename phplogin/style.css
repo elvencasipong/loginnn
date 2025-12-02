@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F7FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+#form, #personal-info {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #343A40;
+    font-weight: 400;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#btn, #showInfoBtn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.1s;
+}
+
+#btn:hover, #showInfoBtn:hover {
+    background-color: #0056b3;
+}
+
+#showInfoBtn {
+    background-color: #6C757D;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#showInfoBtn:hover {
+    background-color: #5A6268;
+}
+
+#personal-info {
+    text-align: left;
+}
+
+#personal-info h1 {
+    margin-bottom: 15px;
+}
+
+.info-content p {
+    color: #343A40;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.info-content strong {
+    font-weight: 600;
+    color: #007BFF;
+}
+
+.about-me {
+    margin-top: 20px;
+    border-top: 1px solid #E9ECEF;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+.secondary-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #6C757D;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-btn:hover {
+    background-color: #5A6268;
+}
+
+.fa-circle-info {
+    margin-left: 5px;
+}
